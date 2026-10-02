@@ -145,3 +145,5 @@ The takeaway here isn't to worry about which core each track happens to land on‚
 ### Why Live, and What This Doesn't Cover
 
 All of this is Ableton Live only. Live is the DAW I use every day, so that was an obvious influence on the choice, but it also turns out to suit this kind of test. Live processes every track in real time within each audio callback, rather than rendering ahead of the buffer the way some DAWs can for playback (Reaper's anticipative FX, for example). That makes it a direct probe of per-core real-time performance: every plugin chain has to meet the deadline on whatever core it lands on. DAWs that render ahead can hide some of these differences during playback, but armed or monitored tracks during low-latency tracking generally have to run in real time there too, which is exactly the scenario where this matters most.
+
+[‚Üê Back to camplaix.github.io](https://camplaix.github.io/)
