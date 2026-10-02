@@ -1,5 +1,6 @@
-# Ableton Live 12
-# Beyond P-Cores: How Apple's 3-Tier Silicon (M5/M6) Impacts Low-Latency DSP Buffer Scaling and Core Allocation
+# Beyond P-Cores: How Apple's 3-Tier Silicon (M5/M6) Impacts Low-Latency DSP Buffer Scaling and Core Allocation in Ableton Live 12
+
+*Originally published on [Gearspace](https://gearspace.com/threads/beyond-p-cores-how-apples-3-tier-silicon-m5-m6-impacts-low-latency-dsp-buffer-scaling-and-core-allocation.1469217/) and [VI-Control](https://vi-control.net/community/threads/beyond-p-cores-apple-m6-3-tier-scheduling-core-bottlenecks-x86-comparison.175545/), September 2026.*
 
 For years, the Apple Silicon pitch for music production was straightforward: high-IPC Performance cores handled real-time audio threads, while low-power Efficiency cores took care of background OS tasks. It was predictable. Every P-core had identical throughput, so multi-track sessions in Ableton Live scaled across the die in a clean, linear way.
 
